@@ -51,6 +51,5 @@ function MatkalistaMUI (props) {
     
   )
 }
-/* asasdd
- */
+
 export default MatkalistaMUI;
