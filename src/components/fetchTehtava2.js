@@ -30,7 +30,7 @@ const MapItems =({strMeal})=>{
 return (
 
     <ul>
-        <p><b>Tehtävä 3</b></p>
+    
     {      
     data.map(data => <MapItems key={data.idMeal} {...data} />)  
     }

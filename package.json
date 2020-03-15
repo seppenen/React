@@ -1,5 +1,5 @@
 {
-<<<<<<< HEAD
+
   "name": "react_",
   "version": "0.1.0",
   "private": true,
@@ -15,19 +15,9 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
-=======
-  "name": "react_tunnilla",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-scripts": "3.3.1"
->>>>>>> 2bb3dc350265849995404c1ded4454fff5db48b9
   },
+
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -48,11 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
+
   },
   "devDependencies": {
     "eslint": "^6.8.0"
-=======
->>>>>>> 2bb3dc350265849995404c1ded4454fff5db48b9
+
   }
 }

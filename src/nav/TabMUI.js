@@ -10,8 +10,16 @@ import Saalomake from './../components/Saalomake'
 import Sananlasku from './../components/Sananlasku'
 import MatkalomakeMUI from './../components/MatkalomakeMUI';
 import MatkalistaMUI from './../components/MatkalistaMUI';
+import PaivakirjaApp from './../AjopaivakirjaApp'
+import DriveEtaIcon from '@material-ui/icons/DriveEta';
+import FastfoodIcon from '@material-ui/icons/Fastfood';
+import Lomake from './../components/ObjectHook'
+import Fetch2 from './../components/fetchTehtava2'
+import Tehtava5MUI from './../Tehava5_2'
+import DrawerMUI from './DrawerMUI'
 
 function TabMUI (props) {
+
 
     const [value, setValue] = useState(0);
     const handleChange = (event, val) => {
@@ -19,25 +27,27 @@ function TabMUI (props) {
       }
       
   return (
-    <div>
+    <div  >
       
 <AppBar position='static'>
-<Tabs value={ value }
+<Tabs variant="fullWidth" value={ value }
 onChange={ handleChange } >
 
-<Tab label='Etusivu' icon={<HomeIcon />} /> 
-<Tab label='Lisää' icon={<CreateIcon />} /> 
-<Tab label='Listaa' icon={<ListIcon />} />
-<Tab label='Sää' icon={<CloudQueueIcon />} />
+<Tab label='Ajopäiväkirja' icon={<DriveEtaIcon />} /> 
+<Tab label='Arviointi' icon={<CreateIcon />} /> 
+<Tab label='Ruokahaku' icon={<FastfoodIcon />} />
+<Tab label='Lomake' icon={<CreateIcon />} />
+<Tab label='Menu' icon={<ListIcon />} />
 
 
 </Tabs>
 </AppBar>
 
-{ value === 0 && <Sananlasku /> }
-{ value === 1 && <MatkalomakeMUI /> }
-{ value === 2 && <MatkalistaMUI matkat={props.data} /> }
-{ value === 3 && <Saalomake  /> }
+{ value === 0 && <PaivakirjaApp /> }
+{ value === 1 && <Lomake /> }
+{ value === 2 && <Fetch2 /> }
+{ value === 3 && <Tehtava5MUI  /> }
+{ value === 4 && <DrawerMUI  /> }
 
 </div>
   

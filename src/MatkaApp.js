@@ -1,9 +1,10 @@
 import React from 'react';
-<<<<<<< HEAD
 
-/* import TabMUI from './nav/TabMUI' */
+
+import TabMUI from './nav/TabMUI' 
 import DrawerMUI from './nav/DrawerMUI'
 import MenuMUI from './nav/MenuMUI'
+import Saalomake from './components/Saalomake'
 
 
 const matkat = [ { id: 1,
@@ -37,7 +38,7 @@ function MatkaApp () {
     <div>
      
     {/*  <DrawerMUI data={matkat} /> */}
-    <MenuMUI />
+    <TabMUI data={ matkat } />
    
     {/*  <MatkalistaMUI matkat={ matkat } />
      <MatkalomakeMUI /> */}
@@ -46,8 +47,8 @@ function MatkaApp () {
    );
 }
 export default MatkaApp;
-=======
-import Saa from './components/Saa'
+
+
 // import Matka from './components/Matka';
 /* import Matkalista from './components/Matkalista';
 
@@ -71,18 +72,3 @@ const data = [{
 	
 	
  */
-function App (){
-
-	return (
-		<div> 
-		
-	{/* 	{  <Matka test={ matkat }/>  }
-		<Matkalista data={data} /> */}
-<Saa/>
-
-		</div>);
-
-}
-
-export default App;
->>>>>>> 2bb3dc350265849995404c1ded4454fff5db48b9

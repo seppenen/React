@@ -22,7 +22,7 @@ export default function PaivakirjaApp(){
 
 	return (
 		<div> 
-		
+		<h3>Ajopaivakirja</h3>
 		<Paivakirja data={ ajopaivakirja } nimi={'Aleksandr Seppenen' }/>
 		
 
