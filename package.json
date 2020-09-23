@@ -1,5 +1,4 @@
 {
-
   "name": "react_",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +15,6 @@
     "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },
-
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -38,10 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-
   },
   "devDependencies": {
     "eslint": "^6.8.0"
-
   }
 }
